@@ -1,0 +1,28 @@
+{
+  "name": "fontawsomeiconlist",
+  "version": "1.0.0",
+  "description": "An api for get list of FontAwsome icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbgrullon/FontAwsomeIconList.git"
+  },
+  "keywords": [
+    "FontAwsome",
+    "Icons"
+  ],
+  "author": "Christopher B. Grullon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbgrullon/FontAwsomeIconList/issues"
+  },
+  "homepage": "https://github.com/cbgrullon/FontAwsomeIconList#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  }
+}
