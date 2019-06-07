@@ -1,6 +1,6 @@
 const DataBase ={
-    connectionString:process.env.dbcstring||'mongodb://appuser:Hey123456@ds263876.mlab.com:63876/virtualstore',
-    dbName: 'virtualstore',
+    connectionString:process.env.dbcstring||'',
+    dbName: '',
     options : {
         useNewUrlParser: true,
         reconnectTries: Number.MAX_VALUE, // Never stop trying to reconnect
